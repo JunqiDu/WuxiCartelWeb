@@ -1,0 +1,40 @@
+.footerDiv {
+  display: flex;
+  height: 38px;
+}
+
+.footerDivLogo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footerDivCartelLogo {
+  width: 87px;
+  height: 38px;
+  margin-left: 30%;
+}
+
+.footerDivCopyright {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3%;
+  margin-right: 0px;
+}
+
+.footerDivLinks {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 450px;
+}
+
+.footerDivPoints {
+  width: 2px;
+  height: 2px;
+  border-style: solid;
+  border-radius: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}

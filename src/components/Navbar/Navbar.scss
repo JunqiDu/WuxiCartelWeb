@@ -1,0 +1,52 @@
+.navDivFirstLine {
+  display: flex;
+  height: 38px;
+  margin: 10px;
+}
+
+.navDivSecondLine {
+  display: flex;
+  height: 38px;
+  margin: 10px;
+}
+
+.navDivButtonGroup {
+  margin-left: 8%;
+}
+
+.navDivAccount {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.cartelLogo {
+  width: 87px;
+  height: 38px;
+  margin-left: 30%;
+}
+
+.navDivSearch {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.navDivLanguage {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+.navDivSearchForm {
+  width: 25em;
+}
+
+.form-control {
+  border-radius: 0px !important;
+}
