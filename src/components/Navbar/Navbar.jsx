@@ -49,10 +49,10 @@ const Navbar = (props) => {
       <div className='navDivSecondLine'>
         <div className='navDivButtonGroup'>
           <ButtonGroup aria-label="Basic example">
-          <Button variant="danger rounded-0">Product</Button>
-          <Button variant="light rounded-0">About</Button>
-          <Button variant="light rounded-0">Contact Us</Button>
-        </ButtonGroup>
+            <Button variant="danger rounded-0"><a className='navDivButtonLink' href="/allProduct">Product</a></Button>
+            <Button variant="danger rounded-0"><a className='navDivButtonLink' href="/about">About</a></Button>
+            <Button variant="danger rounded-0">Contact Us</Button>
+          </ButtonGroup>
         </div>
         <div className='navDivAccount'>
           <Dropdown>
