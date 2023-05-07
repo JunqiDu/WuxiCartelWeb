@@ -50,3 +50,23 @@
 .form-control {
   border-radius: 0px !important;
 }
+
+// set for button link
+.navDivButtonLink:link {
+  text-decoration: none;
+}
+
+.navDivButtonLink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navDivButtonLink:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navDivButtonLink:active {
+  color: white;
+  text-decoration: none;
+}
