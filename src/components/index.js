@@ -4,6 +4,7 @@ import Application from './Application';
 import Footer from './Footer/Footer';
 import Product from "./Product/Product";
 import About from './About/About';
+import SignUp from './SignUp/SignUp';
 
 export {
   Footer,
@@ -11,5 +12,6 @@ export {
   Navbar,
   Application,
   Product,
-  About
+  About,
+  SignUp
 };
