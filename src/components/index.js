@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import Product from "./Product/Product";
 import About from './About/About';
 import SignUp from './SignUp/SignUp';
-
+import Login from './Login/Login';
 export {
   Footer,
   Main,
@@ -13,5 +13,6 @@ export {
   Application,
   Product,
   About,
-  SignUp
+  SignUp,
+  Login
 };
