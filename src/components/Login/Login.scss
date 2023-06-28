@@ -1,0 +1,74 @@
+// Login.scss
+
+$primary-color: #ff0000;
+$secondary-color: #68a8d9;
+$tertiary-color: #00508a;
+
+.login {
+  text-align: center;
+}
+.exlink{
+    text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .restPassword {
+    margin-top: 10px;
+  }
+
+  .login {
+    margin-top: 20px;
+
+    input[type="submit"] {
+      padding: 5px 10px;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+.login-with-provider {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+  p {
+    margin-left: 5px;
+  }
+}
+
+.google-login {
+  color: $primary-color;
+}
+
+.windows-login {
+  color: $secondary-color;
+}
+
+.facebook-login {
+  color: $tertiary-color;
+}
